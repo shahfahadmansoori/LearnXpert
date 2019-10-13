@@ -1,0 +1,469 @@
+@import url("../../node_modules/bootstrap/dist/css/bootstrap.css");
+
+.top-bar {
+  background-color: #1a56d6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.top-bar a {
+  color: #fff;
+  margin-right: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-bar a i {
+  margin-right: 10px;
+}
+
+/* .top-bar styling */
+
+.header {
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #1a56d6;
+}
+
+.header .nav-item .nav-link {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+/* Navbarr styling */
+
+/* .slider {
+  position: relative;
+  padding-bottom: 90px;
+} */
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  top: 0;
+  transform: translateY(10%);
+  color: black;
+  margin-left: 0;
+}
+
+.carousel-caption h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-family: "PT Serif", serif;
+  font-size: 72px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.carousel-item img {
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-caption p {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  color: #666666;
+}
+
+.line {
+  margin-bottom: 30px;
+  color: #707070;
+}
+
+/* ../slider styling */
+.event-section {
+  margin-top: -15%;
+  margin-bottom: 5rem;
+}
+
+.card {
+  box-shadow: 5px 10px 10px 5px #dfdfdf;
+  width: 100%;
+  height: 100%;
+}
+
+.card .Event-top {
+  display: flex;
+  justify-content: space-between;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  color: #808080;
+}
+
+.card .event-title {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card .event-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #808080;
+}
+
+.card .event-time {
+  font-size: 16px;
+  color: #808080;
+  font-family: "Montserrat", sans-serif;
+}
+
+.event-button {
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card .admission-title {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "PT Serif", sans-serif;
+  padding-top: 45px;
+}
+
+.card .admission-button {
+  border: 2px solid #1a56d6;
+  color: #1a56d6;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  padding: 15px 50px;
+}
+
+/* Event-card style */
+
+.LMS-Section {
+  margin-bottom: 5rem;
+}
+
+.LMS-Section h1 {
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+}
+
+.LMS-Section p {
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+/* LMS Section */
+.course-sction h1 {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  padding-top: 5rem;
+}
+
+.courses {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 15% 15%;
+}
+
+.course-sction p {
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  color: #666666;
+  list-style: none;
+}
+
+.course-sction {
+  background-color: #f7f7f7;
+}
+
+/* course-sction styling */
+
+.latest-course .span-1 {
+  color: #808080;
+  font-family: "PT Serif", serif;
+  font-size: 13px;
+}
+
+.latest-course .price {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 23px;
+  color: #1a56d6;
+}
+
+.latest-course h5 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.latest-course p {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #7f7f7f;
+}
+
+.latest-course h3 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* latetst course styling */
+.achievements-section span {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.achievements-section h1 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.achievements-section p {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #7f7f7f;
+}
+
+.achievements-section {
+  background-color: #f7f7f7;
+}
+
+.achievements-section .Achievement-text {
+  line-height: 30px;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+}
+
+.video-description {
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  color: #7f7f7f;
+}
+
+.ply-btn {
+  transition: 0.5;
+  opacity: 0;
+}
+
+.modal-content {
+  border: 0;
+  background: transparent;
+}
+
+.banner-title:hover .ply-btn {
+  opacity: 1;
+}
+
+.banner-title {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.achievement-banner {
+  background-image: url("../../data/subbanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* achievement-section */
+
+.live-class-section span {
+  font-family: "PT Serif", serif;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.live-class-section h3 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.live-class-section p {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #7f7f7f;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+.live-class-section a {
+  padding: 15px 40px;
+}
+
+.live-class-section {
+  margin-top: 100px;
+}
+
+/* .live-class-section */
+
+.portal-section {
+  margin-top: 60px;
+}
+
+.portal-section h3 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.portal-section span {
+  font-family: "PT Serif", serif;
+  font-size: 13px;
+  color: #cccccc;
+  padding-bottom: 30px;
+}
+
+.portal-section p {
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  color: #666666;
+}
+
+.portal-section {
+  margin-bottom: 6rem;
+}
+/* .portal-section */
+
+footer {
+  background-color: #212121;
+  color: #d4d4d4;
+}
+footer .col-3 ul {
+  list-style: none;
+  margin-top: 14rem;
+}
+
+footer .col-3 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+}
+
+footer h5 {
+  padding-bottom: 5rem;
+  padding-top: 4rem;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.address h4 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.address p {
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  padding-bottom: 2rem;
+}
+
+.address span {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.address a {
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+}
+
+.links {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-bottom i {
+  margin-right: 10px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-bottom p {
+  color: #fff;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+}
+
+.box {
+  padding-bottom: 5rem;
+  padding-top: 4rem;
+}
+
+.box input {
+  background-color: #212121;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 13px;
+  width: 300px;
+  height: 50px;
+}
+
+.box button {
+  background-color: #fff;
+  color: #212121;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 12px;
+  border: 0;
+  width: 150px;
+  height: 50px;
+}
