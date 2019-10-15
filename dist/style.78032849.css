@@ -10036,6 +10036,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+/* @import url("../../node_modules/slick-carousel/slick/slick.css");
+@import url("../../node_modules/slick-carousel/slick/slick-theme.css"); */
+
+/* .top-bar */
 .top-bar {
   background-color: #1a56d6;
   padding-top: 15px;
@@ -10053,23 +10057,28 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: 10px;
 }
 
-/* .top-bar styling */
+/* .Nav-bar */
 
 .header {
   background-color: #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   color: #1a56d6;
+}
+
+
+.header .nav-bar {
+  width: 100%;
+  padding: 0;
 }
 
 .header .nav-item .nav-link {
   font-family: "PT Serif", serif;
   font-weight: bold;
   font-size: 18px;
-  margin-right: 30px;
+  padding: 0;
 }
 
-/* Navbarr styling */
 
 /* .slider {
   position: relative;
@@ -10180,12 +10189,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 15px 50px;
 }
 
-.admission-button:hover {
-  background-color: #1a56d6;
-  color: #fff;
-  cursor: pointer;
-  transition: 0.2;
-}
 
 /* Event-card style */
 
@@ -10402,12 +10405,14 @@ hr {
 .portal-section {
   margin-bottom: 6rem;
 }
+
 /* .portal-section */
 
 footer {
   background-color: #212121;
   color: #d4d4d4;
 }
+
 footer .col-3 ul {
   list-style: none;
   margin-top: 14rem;
@@ -10510,6 +10515,5 @@ footer a {
   width: 150px;
   height: 50px;
 }
-
 
 /*# sourceMappingURL=/style.78032849.css.map */
