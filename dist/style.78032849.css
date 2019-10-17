@@ -10141,6 +10141,12 @@ a.text-dark:hover, a.text-dark:focus {
 .card {
   width: 100%;
   height: 100%;
+  border: none;
+
+}
+
+.card:hover {
+  box-shadow: 1px 1px 0px 1px #e0e0e0;
 }
 
 .event-section .card-body {
@@ -10218,7 +10224,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #4d4d4d;
   margin: 0;
   padding: 0;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   margin-top: 45px;
 }
 
@@ -10278,11 +10284,11 @@ a.text-dark:hover, a.text-dark:focus {
   height: 100%;
   padding: 70px 130px;
   border-radius: 2px;
-  box-shadow: 1px 1px 0px 1px #e0e0e0;
+
 }
 
 .courses:hover {
-  box-shadow: 1px 3px 3px 1px #e0e0e0;
+  box-shadow: 1px 1px 0px 1px #e0e0e0;
 }
 
 .courses img {
@@ -10312,11 +10318,12 @@ a.text-dark:hover, a.text-dark:focus {
 .latest-course .card {
   width: 100%;
   height: 100%;
+  border: none;
 
 }
 
 .latest-course .card:hover {
-  box-shadow: 4px 8px 8px -6px #e0e0e0;
+  box-shadow: 1px 1px 0px 1px #e0e0e0;
 }
 
 
