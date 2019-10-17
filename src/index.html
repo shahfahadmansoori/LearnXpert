@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- top-bar-content -->
   <div class="top-bar">
     <div class="container">
       <div class="row justify-content-between">
@@ -19,7 +20,7 @@
           / &nbsp;
           <a href="mail:ledukado.com"><i class="fas fa-envelope"></i>mailedukado.com</a>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-right">
           <a href="#"><i class="fas fa-user-plus"></i>Register</a>
           / &nbsp;
           <a href="#"><i class="fas fa-sign-in-alt"></i>Login</a>
@@ -27,60 +28,55 @@
       </div>
     </div>
   </div>
-
-  <div class=" header">
+  <!-- header-content -->
+  <div class="header">
     <div class="container">
-      <div class="row justif-content-center align-items-center">
-
-        <div class="col-lg-3">
+      <div class="row align-items-center">
+        <div class="col-3">
           <img src="../data/logo.png" alt="">
         </div>
-        <div class="col-lg-9">
-          <nav class="navbar navbar-expand-lg ">
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">PAGES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">COURSES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">FACULTY</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">BLOG</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-search"></i></i></a>
-                </li>
-
-
-
-              </ul>
-            </div>
+        <div class="col-9">
+          <nav class="navbar navbar-expand-lg">
+            <ul class="navbar-nav nav-bar justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FACULTY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+              </li>
+            </ul>
           </nav>
 
         </div>
       </div>
     </div>
   </div>
+  <!-- carousel-content -->
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100 img-fluid" src="../data/slider-image.jpg" alt="First slide">
         <div class="carousel-caption d-md-block">
           <div class=" text-left">
-            <h1>Learn Excelience <br> In Teaching </br></h1>
+            <h1>Learn Excelience <br> In Teaching</h1>
             <div class="w-50">
               <hr class="line ">
             </div>
@@ -95,7 +91,7 @@
         <img class="d-block w-100 img-fluid" src="../data/slider-image.jpg" alt="First slide">
         <div class="carousel-caption d-md-block">
           <div class=" text-left">
-            <h1>Learn Excelience <br> In Teaching </br></h1>
+            <h1>Learn Excelience <br> In Teaching </h1>
             <div class="w-50">
               <hr class="line ">
             </div>
@@ -109,7 +105,7 @@
         <img class="d-block w-100 img-fluid" src="../data/slider-image.jpg" alt="First slide">
         <div class="carousel-caption d-md-block">
           <div class=" text-left ">
-            <h1>Learn Excelience <br> In Teaching </br></h1>
+            <h1>Learn Excelience <br> In Teaching</h1>
             <div class="w-50">
               <hr class="line ">
             </div>
@@ -129,23 +125,22 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <div class="event-section">
+
+  <!-- Event-Card -->
+  <section class="event-section">
     <div class="container">
       <div class="row">
         <div class="col-4">
           <div class="card">
             <div class="card-body">
-              <div class="Event-top">
+              <div class="Event-top d-flex justify-content-between align-items-center">
                 <span class="">Event</span>
-                <i class="fas fa-search"></i>
+                <i class="fas fa-bullhorn"></i>
               </div>
-              <h5 class="card-title event-title">08 MAR 2017</h5>
-              <span class="card-text event-text">SUMMER CAMPING</span>
-              <div class="w-50">
-                <hr class="line">
-              </div>
-              <p class="card-text event-time">Time Start 9:00 AM</p>
-              <a href="#" class="btn btn-primary event-button">Read More</a>
+              <h3 class="event-title">08 MAR 2017</h3>
+              <span class="event-text">SUMMER CAMPING</span>
+              <p class=" event-time">Time Start 9:00 AM</p>
+              <a href="#" class="btn btn-primary event-button">READ MORE</a>
             </div>
 
           </div>
@@ -153,49 +148,35 @@
         <div class="col-4">
           <div class="card">
             <div class="card-body">
-              <div class="Event-top">
+              <div class="Event-top d-flex justify-content-between align-items-center">
                 <span class="">Event</span>
-                <i class="fas fa-search"></i>
+                <i class="fas fa-bullhorn"></i>
               </div>
-              <h5 class="card-title event-title">08 MAR 2017</h5>
-              <span class="card-text event-text">SUMMER CAMPING</span>
-              <div class="w-50">
-                <hr class="line">
-              </div>
-              <p class="card-text event-time">Time Start 9:00 AM</p>
-              <a href="#" class="btn btn-primary event-button">Read More</a>
+              <h5 class="event-title">08 MAR 2017</h5>
+              <span class="event-text">SUMMER CAMPING</span>
+              <p class="event-time">Time Start 9:00 AM</p>
+              <a href="#" class="btn btn-primary event-button">READ MORE</a>
             </div>
 
           </div>
         </div>
         <div class="col-4">
           <div class="card">
-            <div class="card-body">
-
-              <!-- <div class="Event-top">
-                <span class="">Event</span>
-                <i class="fas fa-search"></i>
-              </div> -->
-              <center>
-                <h5 class="card-title admission-title">Become a Student ?</h5>
-              </center>
-              <!-- <span class="card-text event-text">SUMMER CAMPING</span> -->
-              <!-- <div class="w-50">
-                <hr class="line">
-              </div> -->
-              <!-- <p class="card-text event-time">Time Start 9:00 AM</p> -->
-              <center><a href="#" class="btn btn-primary admission-button">ADMISSION NOW</a></center>
-
+            <div class="card-body text-center">
+              <h5 class="admission-title ">Become a Studen ?</h5>
+              <a href="#" class="btn btn-primary admission-button">ADMISSION NOW</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="LMS-Section mt-5">
+  </section>
+
+  <!-- About-Section -->
+  <section class="about-Section">
+    <div class="container">
       <div class="row ">
-        <div class="col-6 mt-3">
+        <div class="col-6">
           <h1>About LMS</h1>
           <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Age nunc isti doceant, vel tu potius quis enim ista
             melius?
@@ -207,74 +188,79 @@
 
           <p>etiam paulum ad dexteram de via declinavi, ut ad Pericli sepulcrum accederem. Duo Reges: constructio
             interrete.</p>
-          <a href="#" class="btn btn-primary event-button mt-3">Read More</a>
+          <a href="#" class="btn btn-primary event-button ">Read More</a>
         </div>
         <div class="col-6">
           <img src="../data/About-img.png" class="About-img img-fluid" alt="">
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- course-section -->
   <Section class="course-sction">
     <div class="container">
       <h1>Which One You Interested?</h1>
-      <div class="row pb-4">
-        <div class="col-lg-4 ">
+      <div class="row ">
+        <div class="col-4">
           <div class="courses text-center ">
             <img src="../data/Html.png" alt="" class="img-fluid">
             <p class="course-text">HTML</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-4">
           <div class="courses text-center ">
             <img src="../data/Untitled-3.png" alt="" class="">
             <p>Photoshop</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-4">
           <div class="courses text-center ">
             <img src="../data/Android.png" alt="" class="">
             <p>Android</p>
           </div>
         </div>
       </div>
-      <div class="row pb-5">
-        <div class="col-lg-4">
+      <div class="row course-row">
+        <div class="col-4">
           <div class="courses text-center ">
             <img src="../data/Html.png" alt="" class="">
             <p>HTML</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-4">
           <div class="courses text-center ">
             <img src="../data/Untitled-3.png" alt="" class="">
             <p>Photoshop</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-4">
           <div class="courses text-center ">
             <img src="../data/Android.png" alt="" class="">
             <p>Android</p>
           </div>
         </div>
       </div>
+    </div>
   </Section>
+
+  <!-- latest-course -->
   <section class="latest-course">
-    <div class="container mt-5">
-      <h3>Latest Courses</h3>
+    <div class="container">
+      <h1>Latest Courses</h1>
       <div class="Latest-course pt-3">
         <div class="row">
           <div class="col-4">
             <div class="card">
               <img src="../data/course.png" class="img-fluid" alt="...">
               <div class="card-body">
-                <div class="course-top d-flex justify-content-between">
-                  <span class="fas fa-folder-open"><span class="ml-1 span-1">Business</span></span>
+                <div class="course-top d-flex justify-content-between align-items-center">
+                  <i class="fas fa-folder-open"><span>Business</span></i>
                   <span class="price">$159.00</span>
                 </div>
-                <div class="course-middle d-flex justify-content-between">
-                  <h5 class="card-title">Fashion Design</h5>
-                  <span class="">$159.00</span>
+                <div class="course-middle d-flex justify-content-between align-items-center">
+                  <span>Fashion Design</span>
+                  <span class="price">$159.00</span>
                 </div>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus
                   ac tellus luctus, ut volutpat neque
@@ -288,13 +274,13 @@
             <div class="card">
               <img src="../data/course2.png" class="img-fluid" alt="...">
               <div class="card-body">
-                <div class="course-top d-flex justify-content-between">
-                  <span class="fas fa-folder-open"><span class="ml-1 span-1">Computer Science</span></span>
+                <div class="course-top d-flex justify-content-between align-items-center">
+                  <i class="fas fa-folder-open"><span>Computer Science</span></i>
                   <span class="price">$159.00</span>
                 </div>
-                <div class="course-middle d-flex justify-content-between">
-                  <h5 class="card-title">Mathematics</h5>
-                  <span class="">$159.00</span>
+                <div class="course-middle d-flex justify-content-between align-items-center">
+                  <span>Mathematics</span>
+                  <span class="price">$159.00</span>
                 </div>
 
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus
@@ -310,12 +296,12 @@
             <div class="card">
               <img src="../data/course3.png" class="img-fluid" alt="...">
               <div class="card-body">
-                <div class="course-top d-flex justify-content-between ">
-                  <span class="fas fa-folder-open "><span class="ml-1 span-1">Natural Science</span></span>
+                <div class="course-top d-flex justify-content-between align-items-center">
+                  <i class="fas fa-folder-open "><span>Natural Science</span></i>
                   <span class="price">Free</span>
                 </div>
-                <div class="course-middle d-flex justify-content-between">
-                  <h5 class="card-title">Marketing</h5>
+                <div class="course-middle d-flex justify-content-between align-items-center">
+                  <span class="card-title">Marketing</span>
                   <span class="">$159.00</span>
                 </div>
 
@@ -331,68 +317,65 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
-  <section class="achievements-section mt-5">
-    <div class="container pt-5">
+
+  <!-- achievement content -->
+  <section class="achievement-section">
+    <div class="container">
       <h1 class="">Our Achievements</h1>
-      <div class="row ">
+      <div class="row achievement-row ">
         <div class="col-3">
-          <div class="Achievement d-flex">
-            <div class="Achievement-icon mr-4 mt-1">
+          <div class="achievement d-flex align-items-center">
+            <div class="achievement-icon">
               <img src="../data/achievment1.png" alt="">
             </div>
-            <div class="Achievement-text ">
+            <div class="achievement-text">
               <span class="">6079</span>
               <p>Active Students</p>
             </div>
           </div>
         </div>
         <div class="col-3">
-          <div class="Achievement d-flex">
-            <div class="Achievement-icon mr-4 mt-1">
+          <div class="achievement d-flex align-items-center">
+            <div class="achievement-icon">
               <img src="../data/achievment2.png" alt="">
             </div>
-            <div class="Achievement-text">
+            <div class="achievement-text">
               <span>1039</span>
               <p>Award Winning</p>
             </div>
           </div>
         </div>
         <div class="col-3">
-          <div class="Achievement d-flex">
-            <div class="Achievement-icon mr-4 mt-1">
+          <div class="achievement d-flex align-items-center">
+            <div class="achievement-icon">
               <img src="../data/achievment3.png" alt="">
             </div>
-            <div class="Achievement-text">
+            <div class="achievement-text">
               <span>6092</span>
               <p>Model Test</p>
             </div>
           </div>
         </div>
-        <div class="col-3 ">
-          <div class="Achievement d-flex">
-            <div class="Achievement-icon mr-4 mt-1">
+        <div class="col-3">
+          <div class="achievement d-flex align-items-center">
+            <div class="achievement-icon">
               <img src="../data/achievment4.png" alt="">
             </div>
-            <div class="Achievement-text ">
+            <div class="achievement-text">
               <span>1032</span>
               <p>Skilled Faculty</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <hr class="line">
-      </div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-4 text-left">
           <p video-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Age nunc isti doceant, vel tu
             potius quis enim ista melius?
             Istam voluptatem perpetuam</p>
         </div>
       </div>
-    </div>
     </div>
     <div class="container">
       <div class="row">
@@ -408,7 +391,7 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-body">
-                  <!-- <video src="../data/video.mp4 " class="w-100" controls autoplay loop></video> -->
+                  <video src="../data/video.mp4 " class="w-100" controls loop></video>
                 </div>
 
 
@@ -418,56 +401,55 @@
         </div>
 
       </div>
-
-    </div>
     </div>
   </section>
+ 
   <section class="live-class-section">
     <div class="container">
-
-      <div class="row align-items-center justify-content-between">
+      <div class="row">
         <div class="col-6">
-          <span>Welcome to
+          <span>Welcome to</span>
             <h3>Live Class</h3>
-          </span>
+         
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et.dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.</p>
+          eiusmod tempor incididunt ut labore et.dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.</p>
           <a href="#" class="btn btn-primary event-button">VIEW ALL CLASSES</a>
         </div>
-        <div class="col-6 ">
+        <div class="col-6 text-right">
           <img src="../data/liveclss.png" class="img-fluid" alt="">
         </div>
       </div>
 
     </div>
   </section>
-  <div class="container-fluid">
-    <div class="row">
+
+ <!-- gutter imges -->
+    <div class="row no-gutters">
       <div class="col-6">
-        <div class="row">
-          <div class="col-3">
-            <img src="../data/img-1.png" alt="" />
+        <div class="row no-gutters">
+          <div class="col-6">
+            <img src="../data/img-1.png" alt="" class="img-fluid"/>
           </div>
-          <div class="col-3">
-            <img src="../data/img-2.png" alt="" />
+          <div class="col-6">
+            <img src="../data/img-2.png" alt="" class="img-fluid"/>
           </div>
         </div>
-        <div class="col-6">
-          <img src="../data/img-3.png" alt="" />
+        <div class="col-12">
+          <img src="../data/img-3.png" alt="" class="img-fluid"/>
         </div>
       </div>
       <div class="col-6">
-        <img src="../data/img-4.png" alt="" />
+        <img src="../data/img-4.png" alt="" class="img-fluid"/>
       </div>
     </div>
-  </div>
+                                                                                                                                                                                            
+  
   <section class="portal-section">
     <div class="container">
       <h3>News Portal</h3>
       <div class="row">
-
         <div class="col-4">
           <div class="card">
             <img src="../data/portal1.png" class="card-img-top" alt="...">
@@ -503,22 +485,21 @@
           </div>
         </div>
       </div>
-      <a href="#" class="btn btn-primary mt-5">VIEW ALL POSTS</a>
+      <a href="#" class="btn btn-primary event-button">VIEW ALL POSTS</a>
     </div>
   </section>
 
-
+ <!-- footer-content -->
   <footer>
     <div class="container">
-      <div class="row">
-
+      <div class="row footer-row">
         <div class="col-4 text-left">
-          <h5> <a href="" class="sign-in">Sign Up</a> <br>For Our News latter</h5>
+          <h1>Sign Up<br>For Our News latter</h1>
           <div class="address">
             <h4>Address :</h4>
             <P>73724 Route 30 <br>
               South Richmond Hill, NY 11419</P>
-            <a href=""><span>tell :</span> (603)-677-3400</a> <br>
+            <a href=""><span>Tel :</span> (603)-677-3400</a> <br>
             <a href=""><span>Email :</span> info@yourdomain.com</a><br>
             <a href=""><span>Web :</span> yourdomain.com</a><br>
           </div>
@@ -536,9 +517,8 @@
         </div>
         <div class="col-5">
           <div class="box">
-
             <div class="form-row align-items-center">
-              <div class="mr-1">
+              <div class="mr-1 text-right">
                 <input type="text" class="form-control" id="inlineFormInputName" placeholder="Enter Your Email">
               </div>
               <div class="">
@@ -546,23 +526,24 @@
               </div>
             </div>
 
+            <div class="icons text-right">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+           <img src="../data/map.png" alt="">
 
           </div>
-          <!-- <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-              <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                style="border:0" allowfullscreen></iframe>
-            </div> -->
         </div>
       </div>
-      <hr>
-
       <div class="footer-bottom">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6 text-left">
             <a href="#"><i class="fas fa-users"></i>TEAM</a>
-            &nbsp;
+          
             <a href="#"><i class="fas fa-sign-in-alt"></i>JOIN US</a>
-            &nbsp;
+           
             <a href="#"><i class="far fa-paper-plane"></i>Invite Us</a>
           </div>
           <div class="col-6 text-right">
@@ -572,8 +553,8 @@
       </div>
     </div>
   </footer>
+
   <script src="./js/app.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
